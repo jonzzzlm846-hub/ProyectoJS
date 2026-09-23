@@ -1,0 +1,12 @@
+//CLASIFICACION DE RENDIMIENTO ACADEMICO
+let promedio = parseFloat(prompt("Ingrese su promedio:"));
+
+if (promedio >= 18 && promedio <=20){
+    console.log("Rendimiento ¡EXCELENTE!");
+}else if (promedio >=14){
+    console.log("Rendimiento ¡BUENO!");
+}else if (promedio >=0){
+    console.log("Rendimiento ¡PESIMO!");
+}else{
+    console.log("Rendimiento ¡IVALIDO!");
+}
